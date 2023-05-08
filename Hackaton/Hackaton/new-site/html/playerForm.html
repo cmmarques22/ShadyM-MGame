@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        modelType="text/css" />
+    <script modelType="application/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script modelType="application/javascript" async
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <meta name="theme-color" content="#FAFAFA">
+</head>
+
+<body class="text-center"
+    style="background-image: url('/new-site/img/eminem.jpg'); background-repeat: no-repeat; background-size:cover;">
+    <div style="padding-block: 2%;">
+        <img src="/new-site/img/5c4cd8f7af1a404892c303e4680b6de9.png" alt="scoreboard"
+            class="d-inline-block align-text-top" width="600px" height="110px">
+    </div>
+    <div id="formsContainer"
+        style="padding-block:1%; opacity:90%; color: black; background-color:goldenrod; border: 5px black solid; font-size: 18px;"
+        class="badge text-bg-warning">
+        <form>
+            <label for="name"><b>Name:</b></label>
+            <input class="form-control form-control-lg" type="text" id="name" minlength="3" maxlength="20" required
+                style="width: 400px">
+        </form>
+        <br>
+        <form>
+            <label for="name"><b>Name:</b></label>
+            <input class="form-control form-control-lg" type="text" id="name2" minlength="3" maxlength="20" required
+                style="width: 400px">
+        </form>
+        <br>
+    </div>
+    <div style="padding-block: 2%;">
+        <a class="btn btn-lg btn-warning"
+            style="background-color: goldenrod; color: black; border: 5px black solid; opacity: 80%;"
+            role="button" onclick="createNewForm()"><b>ADD RAPPER</b></a>
+        <a class="btn btn-lg btn-warning"
+            style="background-color: goldenrod; color: black; border: 5px black solid; opacity: 80%;"
+            role="button" onclick="deleteForm()"><b>DELETE</b></a>
+        <a class="btn btn-lg btn-warning"
+            style="background-color: goldenrod; color: black; border: 5px black solid; opacity: 80%;"
+            role="button" onclick="submitAllForms()"><b>LET'S RAP</b></a>
+    </div>
+    
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="/new-site/js/gameZone.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
