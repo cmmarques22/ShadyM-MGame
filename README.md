@@ -8,6 +8,5 @@ App starts in index.html
 
 ![shady](https://github.com/cmmarques22/ShadyM-MGame/assets/109068850/32cd036a-22ac-43e4-8e1c-a733ded8085c)
 
-![shady4](https://github.com/cmmarques22/ShadyM-MGame/assets/109068850/400e5ae2-0dc2-4ca2-9a3c-fb8689604cdc)
 
 
